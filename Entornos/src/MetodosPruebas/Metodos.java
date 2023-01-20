@@ -3,6 +3,7 @@ package MetodosPruebas;
 public class Metodos {
 
 	public boolean esPar(int a) {
+		int i = 0;
 		boolean par = true;
 		if (a % 2 == 0) {
 			par = true;
